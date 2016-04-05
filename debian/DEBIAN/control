@@ -1,13 +1,11 @@
-Source: php5-ioncube
+Package: php5-ioncube
+Version: 4.0.2-1
+Architecture:
+Maintainer: Sebastien Cramatte <scramatte@gmail.com>
+Installed-Size: 20
+Depends: php5-common
 Section: web
 Priority: optional
-Maintainer: Sebastien Cramatte <scramatte@gmail.com>
-Build-Depends: debhelper (>= 3), php5-dev
-Standards-Version: 3.6.1
-
-Package: php5-ioncube
-Architecture: i386
-Depends: php5-common
 Description: sourceguardian module for php5
  This package provides a module for sourceguardian functions in PHP scripts.
  .
