@@ -1,9 +1,10 @@
-LICENCE AGREEMENT FOR THE IONCUBE PHP LOADER AND USE OF IONCUBE ENCODED FILES
+LICENCE AGREEMENT FOR THE IONCUBE PHP LOADER, PROVIDED TO ENABLE THE USE
+OF IONCUBE ENCODED FILES AND AS PART OF THE IONCUBE24 SERVICE (ioncube24.com)
 
 YOU SHOULD CAREFULLY READ THE FOLLOWING TERMS AND CONDITIONS BEFORE USING THE
 LOADER SOFTWARE. THE INSTALLATION AND/OR USE OR COPYING OF THE IONCUBE PHP
 LOADER SOFTWARE INDICATES YOUR ACCEPTANCE OF THIS LICENCE AGREEMENT.  IF YOU
-DO NOT ACCEPT THE TERMS OF THIS LICENCE AGREEMENT, THEN DO NOT INSTALL, COPY
+DO NOT ACCEPT THE TERMS OF THIS LICENCE AGREEMENT, DO NOT INSTALL, COPY
 AND/OR USE THE LOADER SOFTWARE.
 
 DEFINITIONS
@@ -22,7 +23,7 @@ purpose of producing non-humanly readable encoded files from PHP scripts.
 ENCODED FILE shall mean a non-humanly readable file produced by the 
 Encoder and being derived from humanly readable PHP script source.
 
-PROVIDER shall mean ionCube Ltd. 
+PROVIDER shall mean ionCube Ltd.
 
 USER/YOU shall mean any entity who has downloaded or obtained through any
 other means a version of the Loader software.
@@ -118,10 +119,10 @@ TRANSMISSION.
 
 6.1 The provider will use reasonable endeavours to provide support to users.
 The provider will at their discretion only provide support for the latest
-release and for up to two prior versions of the Loader.
+release.
 
-6.2 Support comprises of fault reporting via e-mail and fault diagnosis,
-recommendations on workaround, and where reasonably possible a timely
+6.2 Support comprises of fault reporting via tickets and fault diagnosis,
+recommendations on workarounds, and where reasonably possible a timely
 resolution.
 
 6.3 The user accepts that on occasion the ability of the provider to meet
@@ -135,6 +136,10 @@ affect the ability to communicate for an indeterminate period.
 possible quality, and accordingly may from time to time and at its discretion
 make product changes for the purpose of correcting behaviour in variance to
 the published specification or the user's reasonable expectations. 
+
+6.6 The provider reserves the right to charge for support where the user does
+not have a valid support plan in place, or where the support offered exceeds
+the scope of the active support plan.
 
 
 7 PRODUCT UPGRADES
@@ -235,4 +240,4 @@ This License Agreement and any issues relating thereto shall be construed and
 interpreted in accordance with the laws of England and subject to the
 exclusive jurisdiction of the English courts.
 
-Copyright (c) 2002-2010 ionCube Ltd.                  Last revised 11-Jul-2009
+Copyright (c) 2002-2016 ionCube Ltd.          Last revised 23-April-2015
