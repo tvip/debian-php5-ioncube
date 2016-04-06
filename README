@@ -1,2 +1,2 @@
 Create packages:
-make generate
+make release
