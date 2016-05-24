@@ -9,9 +9,27 @@ IONPATH=/usr/share/ioncube/${ARCH}/ioncube_loader_lin_${V}.so
 case "$1" in
     configure)
         echo zend_extension= > /etc/php5/mods-available/ioncube.ini
+
         sed -i /etc/php5/mods-available/ioncube.ini -e "s:zend_extension=:zend_extension=${IONPATH}:"
-        ln -s /etc/php5/mods-available/ioncube.ini /etc/php5/apache2/conf.d/01-ioncube.ini
-        ln -s /etc/php5/mods-available/ioncube.ini /etc/php5/cli/conf.d/01-ioncube.ini
+
+        if [ -d "/etc/php5/apache2/" ]; then
+
+            if [ ! -f "/etc/php5/apache2/conf.d/01-ioncube.ini" ]; then
+                ln -s /etc/php5/mods-available/ioncube.ini /etc/php5/apache2/conf.d/01-ioncube.ini
+             fi
+        fi
+
+        if [ -d "/etc/php5/cli/" ]; then
+            if [ ! -f "/etc/php5/cli/conf.d/01-ioncube.ini" ]; then
+                ln -s /etc/php5/mods-available/ioncube.ini /etc/php5/cli/conf.d/01-ioncube.ini
+            fi
+        fi
+
+        if [ -d "/etc/php5/fpm/" ]; then
+            if [ ! -f "/etc/php5/fpm/conf.d/01-ioncube.ini" ]; then
+                ln -s /etc/php5/mods-available/ioncube.ini /etc/php5/fpm/conf.d/01-ioncube.ini
+            fi
+        fi
     ;;
 
     triggered)
